@@ -6,7 +6,12 @@ const app = express();
 
 const port = 3001;
 
-const {robots} = require("./robots");
+const {getRobots, getRobotsById} = require ("./controladores/getRobots");
+
+// rutas
+app.get("/", getRobots);
+
+app.get("/:id", getRobotsById);
 
 app.get("/", req ,res , ()=>{
     res.json ({

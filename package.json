@@ -4,7 +4,7 @@
   "description": "backend de paises",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "antonella",
   "license": "ISC",
