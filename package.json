@@ -1,0 +1,14 @@
+{
+  "name": "paises",
+  "version": "1.0.0",
+  "description": "backend de paises",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "antonella",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
